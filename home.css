@@ -1,0 +1,38 @@
+.header {
+    background-color: #ff4a4a;
+    color: #fff;
+    height: 90px;
+  }
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  .header-list{
+    padding-top:33px;
+    word-spacing: 20px;
+  }
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+  }
+  .b{
+      color:#2f5167;
+  }
+  .footer{
+    background-color: #2f5167;
+          color: #ffffff;
+          height: 100px;
+          padding: 40px;
+  }
+  .content{
+    height: 300px;
+  }
+  .highlight{
+    color: #ffffff;
+    background-color:#2f5167;
+  }
+  .header-button{
+    background-color: #ffffff;
+    color:#2f5167 ;
+  }

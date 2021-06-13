@@ -13,6 +13,10 @@
     <div class="content">
       <form action="#">
         <div class="user-details">
+        <div class="input-box">
+            <span class="details">Token Number</span>
+            <input type="text" placeholder="Enter your token number" required>
+          </div>
           <div class="input-box">
             <span class="details">Full Name</span>
             <input type="text" placeholder="Enter your name" required>
@@ -26,10 +30,6 @@
             <input type="text" placeholder="Enter your email" required>
           </div>
            <div class="input-box">
-            <span class="details">Token Number</span>
-            <input type="text" placeholder="Enter your token number" required>
-          </div>
-           <div class="input-box">
             <span class="details">Year Of Passout</span>
             <input type="text" placeholder="Enter your passout in year" required>
           </div>
@@ -39,11 +39,11 @@
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <input type="password" placeholder="Enter your password" required>
           </div>
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <input type="password" placeholder="Confirm your password" required>
           </div>
         </div>
         <div class="gender-details">

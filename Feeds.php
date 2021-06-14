@@ -11,8 +11,8 @@
         <div class="header-list">
           
           <label><button class="highlight">Feeds</button></label>
-          <label><a href="Events.html"><button class="header-button">Events</button></a></label>
-          <label><a href="Notifications.html"><button class="header-button">Notifications</button></a></label>
+          <label><a href="Events.php"><button class="header-button">Events</button></a></label>
+          <label><a href="Notifications.php"><button class="header-button">Notifications</button></a></label>
           <label><button class="header-button">Chat</button></label>
           
         </div>

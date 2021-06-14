@@ -10,9 +10,9 @@
         <div class="header-logo"><b>NTTF</b></div>
         <div class="header-list">
           
-          <label><a href="Feeds.html"><button class="header-button">Feeds</button></a></label>
+          <label><a href="Feeds.php"><button class="header-button">Feeds</button></a></label>
           <label><button class="highlight">Events</button></label>
-          <label><a href="Notifications.html"><button class="header-button">Notifications</button></a></label>
+          <label><a href="Notifications.php"><button class="header-button">Notifications</button></a></label>
           <label><button class="header-button">Chat</button></label>
           
         </div>

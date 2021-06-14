@@ -1,4 +1,4 @@
-<?php>
+<?php
 
 session_start();
 
@@ -27,7 +27,7 @@ $password2=mysqli_real_escape_string($db, $_POST['password2']);
 //form validation
 
 if($password1 != $password2){
-    array_push($errors, 'Password do not match')
+    array_push($errors, 'Password do not match');
 };
 
 //checking database for existing users
@@ -42,23 +42,16 @@ if($user){
 
 //Registering the user data if no error
 
+if(count($errors) == 0){
+    $password = md5($password1);  //md5 is used to encrypt the password
+    $query = "insert into users(token_number, name, email, passout, phone, password) values('$token_number','$name','$email', '$passout', '$phone','$password')";
 
+    mysqli_query($db,$query);
+    $_SESSION['token_number'] = $token_number;
+    $_SESSION['success'] = "You are now logged in";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    header('location : Home.php');
+}
 
 
 

@@ -1,3 +1,4 @@
+<?php include('signup_server.php')  ?>
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
@@ -11,7 +12,7 @@
   <div class="container">
     <div class="title">Registration</div>
     <div class="content">
-      <form action="login.php">
+      <form action="login.php" method="post">
         <div class="user-details">
         <div class="input-box">
             <span class="details" for="token_number">Token Number</span>

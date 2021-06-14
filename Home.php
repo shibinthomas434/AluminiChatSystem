@@ -1,3 +1,15 @@
+<?php
+
+if(isset($_GET['logout'])){
+  session_destroy();
+  unset($_SESSION['token_number']);
+  header("location : login.php");
+
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,7 +26,7 @@
         }
 
         .header {
-          background-color: #ff4a4a;
+          background-color: #686b6;
           color: #fff;
           height: 90px;
         }
@@ -114,10 +126,14 @@
     <div class="header">
       <div class="header-logo"><b>NTTF</b></div>
       <div class="header-list">
-        <label><a href="Feeds.html"><button class="header-button">Feeds</button></a></label>
-        <label><a href="Events.html"><button class="header-button">Events</button></a></label>
-        <label><a href="Feeds.html"><button class="header-button">Feeds</button></a></label>
+        <label><a href="Feeds.php"><button class="header-button">Feeds</button></a></label>
+        <label><a href="Events.php"><button class="header-button">Events</button></a></label>
+        <label><a href="Feeds.php"><button class="header-button">Feeds</button></a></label>
         <label><button class="header-button">Events</button></label>
+
+        
+        <button><a href="Home.php?logout='1' " button class="header-button">Logout</a></button>
+        
       </div>
     </div>
 
@@ -128,7 +144,7 @@
       </div>
       
       <div class="contents">
-        <h3 class="section-title">What's happening in NTTF ?</h3>
+        <h3 class="section-title">What is happening in NTTF ?</h3>
         <div class="contents-item">
           <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
           <p>Placement</p>

@@ -1,3 +1,6 @@
+<?php include('signup_server.php');
+?>
+
 <!DOCTYPE html>
 <!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
@@ -21,15 +24,12 @@
           <div class="underline"></div>
         </div>
         <div class="input-box button">
-          <input type="submit" name="" value="Continue"><a href="signup.html">
+          <input type="submit" name="" value="Continue"><a href="sign.php">
         </div>
       </form>
-        <div class="option">or Connect With Social Media</div>
-        <div class="twitter">
-          <a href="#"><i class="fab fa-twitter"></i>Sign in With Twitter</a>
-        </div>
-        <div class="facebook">
-          <a href="#"><i class="fab fa-facebook-f"></i>Sign in With Facebook</a>
+        <div class="option">Not a user ? Sign up</div>
+        <div class="facebook i">
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj71tbpn5XxAhWbIbcAHdyxBqAQFjAAegQICBAD&url=https%3A%2F%2Fwww.facebook.com%2FNTTFTechnicalTraining%2F&usg=AOvVaw3H_8tjm3vLJiZjaXfKM_GF"><i class="fab fa-facebook-f"></i>Follow us on Facebook</a>
         </div>
     </div>
   </body>
